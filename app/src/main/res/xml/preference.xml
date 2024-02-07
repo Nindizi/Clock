@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="hourFormat"
+        android:summaryOff="Civilian time"
+        android:summaryOn="Military time"
+        android:title="24 Hour Format" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="partialSeconds"
+        android:summaryOff="Cheap Watch"
+        android:summaryOn="Expensive watch"
+        android:title="Partial Seconds?" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/list_prefs"
+        android:entryValues="@array/list_prefs"
+        android:key="prefClockFace"
+        android:summary="Current clock face: %s"
+        android:title="Clock Face Numerals" />
+    <EditTextPreference
+        android:defaultValue="100"
+        android:inputType="number"
+        android:title="Update Interval (100-5000)"
+        android:summary="100"
+        android:key="update_pref"
+        android:id="@+id/update_interval"
+        />
+</PreferenceScreen>

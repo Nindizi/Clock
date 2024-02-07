@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_prefs">
+        <item>No Numbers</item>
+        <item>Regular Numerals</item>
+        <item>Roman Numerals</item>
+        <item>Math Face</item>
+        <item>Crazy Face</item>
+    </string-array>
+</resources>
